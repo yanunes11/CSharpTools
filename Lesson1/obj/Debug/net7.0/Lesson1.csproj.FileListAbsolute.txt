@@ -1,0 +1,15 @@
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/bin/Debug/net7.0/Lesson1
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/bin/Debug/net7.0/Lesson1.deps.json
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/bin/Debug/net7.0/Lesson1.runtimeconfig.json
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/bin/Debug/net7.0/Lesson1.dll
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/bin/Debug/net7.0/Lesson1.pdb
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/Lesson1.csproj.AssemblyReference.cache
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/Lesson1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/Lesson1.AssemblyInfoInputs.cache
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/Lesson1.AssemblyInfo.cs
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/Lesson1.csproj.CoreCompileInputs.cache
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/Lesson1.dll
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/refint/Lesson1.dll
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/Lesson1.pdb
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/Lesson1.genruntimeconfig.cache
+/Users/yannunes/Documents/dotnet/CSharpTools/Lesson1/obj/Debug/net7.0/ref/Lesson1.dll
