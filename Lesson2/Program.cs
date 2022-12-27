@@ -3,13 +3,12 @@
 namespace Lesson2 {
     class Program {
         static void Main(string[] args) {
-            // RetrieveValue(); //ReadLine()
-            // HalfDouble(); // << and >> operators
-            // EnumDaysOfWeek(); // enum
-            // GoToCommand(); // Go to any place of the code
-            // ListArray();
+            RetrieveValue(); //ReadLine() retrieve values from the user
+            HalfDouble(); // << and >> operators
+            EnumDaysOfWeek(); // enum
+            GoToCommand(); // Go to any place of the code
+            ListArray();
             Matrix();
-
         }
 
         //retrieve value from the user
