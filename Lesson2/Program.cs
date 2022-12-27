@@ -92,6 +92,7 @@ namespace Lesson2 {
 
             Console.WriteLine("n[1,3]: "+n[1,3]);
 
+            // inserting values in declaration
             int[,] num = new int[2,2]{{10, 20}, {30, 40}};
         }
     }
