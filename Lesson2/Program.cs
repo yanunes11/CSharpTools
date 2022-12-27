@@ -3,11 +3,11 @@
 namespace Lesson2 {
     class Program {
         static void Main(string[] args) {
-            // RetrieveValue(); //ReadLine()
-            // HalfDouble(); // << and >> operators
-            // EnumDaysOfWeek(); // enum
-            // GoToCommand(); // Go to any place of the code
-            // ListArray();
+            RetrieveValue(); //ReadLine()
+            HalfDouble(); // << and >> operators
+            EnumDaysOfWeek(); // enum
+            GoToCommand(); // Go to any place of the code
+            ListArray();
             Matrix();
 
         }
@@ -93,6 +93,7 @@ namespace Lesson2 {
 
             Console.WriteLine("n[1,3]: "+n[1,3]);
 
+            // inserting values in declaration
             int[,] num = new int[2,2]{{10, 20}, {30, 40}};
         }
     }
