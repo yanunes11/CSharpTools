@@ -11,13 +11,13 @@ namespace Lesson2 {
         //retrieve value from the user
         public static void RetrieveValue() {
             Console.WriteLine("Writedonw your name: ");
-            string name = Console.ReadLine();
+            string name = Console.ReadLine() ?? "Not Null";
             Console.WriteLine("Your Name: "+name);
         }
 
         // operator << and >> for half and double
         public static void HalfDouble() {
-            int n1 = 10, n2 = 20;
+            int n1 = 10;
             int s = n1<<3;
             Console.WriteLine(s);
         }
