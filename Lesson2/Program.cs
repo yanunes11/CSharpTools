@@ -3,10 +3,12 @@
 namespace Lesson2 {
     class Program {
         static void Main(string[] args) {
-            RetrieveValue(); //ReadLine()
-            HalfDouble(); // << and >> operators
-            EnumDaysOfWeek(); // enum
-            GoToCommand(); // Go to any place of the code
+            // RetrieveValue(); //ReadLine()
+            // HalfDouble(); // << and >> operators
+            // EnumDaysOfWeek(); // enum
+            // GoToCommand(); // Go to any place of the code
+            // ListArray();
+            Matrix();
 
         }
 
@@ -51,6 +53,47 @@ namespace Lesson2 {
                 count += 1;
                 goto init;
             }
+        }
+        
+        static void ListArray() {
+            int[] n1 = new int[5]; // list with 5 elements 0-4
+            Console.WriteLine("n1.Length: "+n1.Length);
+
+            n1[0] = 4;
+            n1[1] = 5;
+            n1[2] = 7;
+            n1[3] = 43;
+            n1[4] = 1;
+            Console.WriteLine("\nn1 values: ");
+            int i = 0;
+            foreach(int value in n1) {
+                Console.WriteLine("value["+i+"]: "+value);
+                i =+ 1;
+            }
+
+            int[] n2 = new int[6]{4, 5, 2, 6, 8, 98}; // list with 5 elements 0-4
+            Console.WriteLine("\nn2.Length: "+n2.Length);
+
+        }
+
+        static void Matrix() {
+            int[,] n = new int[3,5]; // 3 lines 5 columns
+
+            n[0,0] = 10;
+            n[0,1] = 20;
+            n[0,2] = 30;
+            n[0,3] = 40;
+            n[0,4] = 50;
+
+            n[1,0] = 60;
+            n[1,1] = 70;
+            n[1,2] = 80;
+            n[1,3] = 90;
+            n[1,4] = 100;
+
+            Console.WriteLine("n[1,3]: "+n[1,3]);
+
+            int[,] num = new int[2,2]{{10, 20}, {30, 40}};
         }
     }
 }
