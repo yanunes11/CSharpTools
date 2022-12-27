@@ -1,3 +1,9 @@
+/*
+    * @author : Yan Nascimento
+    * @Description : basic tools for using with C#
+    * @log : 20/12/2022 - created
+*/
+
 using System;
 
 namespace Lesson2 {
@@ -9,7 +15,7 @@ namespace Lesson2 {
             Console.WriteLine("Your Name: "+name);
         }
 
-        // half and double
+        // operator << and >> for half and double
         public static void HalfDouble() {
             int n1 = 10, n2 = 20;
             int s = n1<<3;
