@@ -7,11 +7,11 @@
 using System;
 
 namespace Lesson2 {
-    public class Basic2 {
+    public class ArrayMethods {
         //retrieve value from the user
-        public static void ArrayMethods() {
+        public static void MainArrayMethods() {
 
-            // vector a
+            // vector setup
             int[] vector1 = new int[5];
             int[] vector2 = new int[5];
             int[] vector3 = new int[5];

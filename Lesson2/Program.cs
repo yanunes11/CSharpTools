@@ -16,8 +16,8 @@ namespace Lesson2 {
             // Basic1.GoToCommand(); // Go to any place of the code
             // Basic1.ListArray();
             // Basic1.Matrix();
-            // Basic2.ArrayMethods();
-            Basic3.MainParams();
+            // ArrayMethods.MainArrayMethods();
+            MainParamsArgument.MainParams();
         }
     }
 }

@@ -7,7 +7,7 @@
 using System;
 
 namespace Lesson2 {
-    public class Basic3 {
+    public class MainParamsArgument {
         //retrieve value from the user
         public static void MainParams() {
             ParamsArgument();
