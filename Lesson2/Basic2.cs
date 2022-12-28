@@ -20,11 +20,15 @@ namespace Lesson2 {
             Console.Clear();
 
             vector1 = RandomCreation(vector1);
-            // int index = BinarySearch(vector1, 1);
-            // vector2 = Copy(vector1, vector2);
-            // vector3 = CopyTo(vector1, vector3);
-            // int valueOfIndex = GetValue(vector1, 0);
+            int index = BinarySearch(vector1, 1);
+            vector2 = Copy(vector1, vector2);
+            vector3 = CopyTo(vector1, vector3);
+            int valueOfIndex = GetValue(vector1, 0);
             int indexOf = GetIndexOf(vector1, 1);
+            int lastIndexOf = LastIndexOf(vector1, 1);
+            Reverse(vector1);
+            SetValue(vector1, 99, 3); //vecotr value to set and index where to change
+            Sort(vector1);
         }
 
         public static int[] RandomCreation(int[] vector) {
@@ -91,6 +95,45 @@ namespace Lesson2 {
             }
             Console.WriteLine("\nValue of the index "+value+": "+indexOf);
             return indexOf;
+        }
+
+        public static int LastIndexOf(int[] vector, int value) {
+            Console.WriteLine("LastIndexOf");
+            int indexOf = Array.LastIndexOf(vector, value);
+            foreach(int v in vector) {
+                Console.Write("["+v+"] ");
+            }
+            Console.WriteLine("\nValue of the index "+value+": "+indexOf);
+            return indexOf;
+        }
+
+        public static void Reverse(int[] vector) {
+            Console.WriteLine("Vector: ");
+            foreach (int value in vector) {
+                Console.Write("["+value+"] ");
+            }
+            Array.Reverse(vector);
+            Console.WriteLine("Reversed Vector: ");
+            foreach (int value in vector) {
+                Console.Write("["+value+"] ");
+            }
+        }
+
+        public static void SetValue(int[] vector, int valueToSet, int index) {
+            vector.SetValue(valueToSet, index);
+            
+            Console.WriteLine("Vector: ");
+            foreach (int value in vector) {
+                Console.Write("["+value+"] ");
+            }
+        }
+
+        public static void Sort(int[] vector) {
+            Array.Sort(vector);
+            Console.WriteLine("Vector: ");
+            foreach (int value in vector) {
+                Console.Write("["+value+"] ");
+            }
         }
 
     }
