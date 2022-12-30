@@ -18,6 +18,7 @@ namespace Lesson2 {
             // Basic1.Matrix();
             // ArrayMethods.MainArrayMethods();
             MainParamsArgument.MainParams();
+            NonStatic ns = new NonStatic();
         }
     }
 }
