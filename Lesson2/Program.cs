@@ -17,8 +17,9 @@ namespace Lesson2 {
             // Basic1.ListArray();
             // Basic1.Matrix();
             // ArrayMethods.MainArrayMethods();
-            MainParamsArgument.MainParams();
-            NonStatic ns = new NonStatic();
+            // MainParamsArgument.MainParams();
+            // NonStatic ns = new NonStatic();
+            NonStaticPart2 ns2 = new NonStaticPart2();
         }
     }
 }
