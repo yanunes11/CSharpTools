@@ -19,7 +19,10 @@ namespace Lesson2 {
             // overload constructor
             Product pdOverload = new Product();
 
-            Gardening gd = new Gardening("Inheritance");
+            // Inheritance // Gardening is a derived class
+            Gardening gd = new Gardening("Inheritance", 100);
+            Console.WriteLine("gd.name: "+gd.name);
+            Console.WriteLine("gd.getPrice: "+gd.getPrice());
         }
 
     }
@@ -65,8 +68,10 @@ namespace Lesson2 {
     }
 
     public class Gardening:Product {
-        public Gardening(string name) {
+        public Gardening(string name, int price) {
+            Console.WriteLine("Gardening");
             this.name = name;
+            this.setPrice(price);
         }
     }
 
