@@ -19,7 +19,8 @@ namespace Lesson2 {
             // ArrayMethods.MainArrayMethods();
             // MainParamsArgument.MainParams();
             // NonStatic ns = new NonStatic();
-            NonStaticPart2 ns2 = new NonStaticPart2();
+            // NonStaticPart2 ns2 = new NonStaticPart2();
+            VirtualAbstract va = new VirtualAbstract();
         }
     }
 }
